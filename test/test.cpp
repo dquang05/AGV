@@ -319,6 +319,7 @@ void motorTask(void *parameter)
         motor_speed_set(0, 0); // Stop motors if mutex not available
       }
       Serial.print(cur_speed1);
+      Serial.print(", ");
     }
     // Serial.print("signal count: ");
     // Serial.println(signal_count_0);
