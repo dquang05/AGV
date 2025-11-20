@@ -1,0 +1,19 @@
+# python -m venv venv
+# venv\Scripts\activate
+# ---- Core GUI Framework ----
+PyQt5>=5.15
+pyqt5-stubs>=5.15
+
+
+# ---- Plotting ----
+matplotlib>=3.7
+numpy>=1.23
+
+# ---- MQTT Subscriber ----
+paho-mqtt>=1.6
+
+# ---- Serial Communication (HC12 via USB–TTL) ----
+pyserial>=3.5
+
+# ---- Optional but recommended for speed & stability ----
+typing-extensions>=4.0

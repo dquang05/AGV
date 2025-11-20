@@ -1,0 +1,16 @@
+# python -m venv venv
+# venv\Scripts\activate
+# ---- GUI Framework ----
+PyQt5>=5.15
+
+# ---- Plotting ----
+matplotlib>=3.7
+numpy>=1.23
+
+# ---- MQTT subscriber ----
+paho-mqtt>=1.6
+
+# ---- Lidar  ----
+rplidar>=0.9
+
+
